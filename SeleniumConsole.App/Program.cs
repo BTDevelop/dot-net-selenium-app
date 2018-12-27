@@ -12,7 +12,6 @@ namespace SeleniumConsole.App
         static void Main(string[] args)
         {
             SeleniumEngine seleniumEngine = new SeleniumEngine("https://www.sahibinden.com/satilik");
-
             seleniumEngine.Navigate();
             string result = seleniumEngine.Search();
 
